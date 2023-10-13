@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: #f8f8f8;
+}
+
+form {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+label {
+    color: #000000;
+    text-align: center;
+}
+
+input[type="number"], input[type="submit"], #add-grade, .remove-grade {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.grade, .coef {
+    margin-bottom: 10px;
+}
+
+input[type="number"], input[type="text"] {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    background-color: #da2f2f;
+    color: #ffffff;
+}
+
+#hidden-grade, #hidden-grade-25, #hidden-grade-50, #hidden-grade-2 {
+    font-weight: bold;
+    color: #da2f2f;
+}
+
+#add-grade, input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #000000;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#add-grade:hover, input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    transition: 0.3s;
+}
+
+.remove-grade {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid crimson;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.remove-grade:hover {
+    background-color: #ffffff;
+    color: crimson;
+    transition: 0.3s;
+}

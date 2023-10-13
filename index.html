@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hidden Grade Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <form>
+        <h1>Calculateur de note caché</h1>
+        <label for="current-average">Moyenne</label>
+        <input type="number" id="current-average" name="current-average" required step="0.01"><br><br>
+        <div id="grade-inputs">
+            <div>
+                <label for="grade1">Note 1 :</label>
+                <input type="number" class="grade" name="grade1" required step="0.01">
+                <label for="coef1">Coef :</label>
+                <input type="number" class="coef" name="coef1" required step="0.01">
+            </div>
+            <div>
+                <label for="grade2">Note 2 :</label>
+                <input type="number" class="grade" name="grade2" required step="0.01">
+                <label for="coef2">Coef :</label>
+                <input type="number" class="coef" name="coef2" required step="0.01">
+            </div>
+        </div>
+        <button type="button" id="add-grade">Ajouter une note</button><br><br>
+        <input type="submit" value="Calculer la note caché">
+        <br>
+        <p>Note caché (coef 0.25) : <span id="hidden-grade-25"></span></p>
+        <p>Note caché (coef 0.5) : <span id="hidden-grade-50"></span></p>
+        <p>Note caché (coef 1) : <span id="hidden-grade"></span></p>
+        <p>Note caché (coef 2) : <span id="hidden-grade-2"></span></p>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
