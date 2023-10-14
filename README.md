@@ -6,3 +6,5 @@ To use it you need to enter all your grades with the coef, and the average grade
 Tested and worked for ecoledirecte
 
 have fun ^^
+
+Made by EncryptSine
